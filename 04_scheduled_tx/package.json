@@ -1,0 +1,22 @@
+{
+  "name": "04_scheduled_tx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@hashgraph/sdk": "^2.20.0",
+    "dotenv": "^16.0.3"
+  },
+  "scripts": {
+    "start:createscheduledtx": "node scripts/createScheduledTx.js",
+    "start:deletescheduledtx": "node scripts/deleteScheduledTx.js",
+    "start:getscheduledtxinfo": "node scripts/getScheduledTxInfo.js",
+    "start:executescheduledtx": "node scripts/executescheduledtx.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.34.0"
+  }
+}
